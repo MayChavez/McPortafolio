@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portafolio Maylin Chavez</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="less/style.less">
+</head>
+
+
+<body>
+  {{> headers}}
+  <main>
+    <section class="sobremi">
+      <section class="informacion-sobremi" id="informacion-sobremi">
+        <h1>Sobre Mí:</h1><br>
+        <p>
+          Mi nombre es Maylin Esperanza Chavez Fiallos.<br>
+          <br>
+          Estudio en la Universidad Católica de Honduras(UNICAH).<br>
+          <br>
+          Soy un estudiante de cuarto año de Ingeniería en Ciencias de la Computación.<br>
+          <br>
+          Apasionado por el área de redes y el diseño gráfico.<br>
+          <br>
+          Durante mis estudios, he desarrollado un interés particular en áreas como la inteligencia artificial,
+          el desarrollo de software. He participado en varios proyectos académicos que me han permitido aplicar mis
+          conocimientos en programación, bases de datos y análisis de datos.
+
+        </p>
+
+        En el futuro, me gustaría trabajar en una empresa de tecnología innovadora, donde pueda seguir aprendiendo y
+        creciendo profesionalmente. Mi meta a largo plazo es contribuir al desarrollo de soluciones tecnológicas que
+        tengan un impacto positivo en la sociedad. </p>
+        <p> Nací el 28 de Enero.</p>
+        <p>Tengo la edad de 22 años.</p>
+
+      </section>
+      <section class="imagen-informacion">
+        <img src="public/yo.jpeg" alt="" style="width: 60%;">
+        <h3>Maylin Chavez</h3>
+      </section>
+    </section>
+  </main>
+
+  <section class="cursos">
+    <section class="intro" style="width: 60%;" id="intro">
+      <h1>Educación Primaria</h1>
+      <ul>
+        <li>Instituto Sagrado Corazon</li><br>
+      </ul>
+      <section class="imagen-infor">
+        <img width="60%" src="public/ceb.jpeg" alt="">
+      </section>
+
+    </section>
+
+    <section class="cursos2" style="width: 60%;">
+      <h1>Educación Secundaria Y preparatoria</h1>
+
+      <ul>
+        <li>Instituto Sagrado Corazon</li><br>
+        <section class="imagen-infor">
+          <img width="60%" src="public/ceb.jpeg" alt="">
+        </section>
+    </section>
+
+    <section class="cursos3" style="width: 40%;">
+
+      <h1>Educación Superior</h1>
+
+      <ul>
+        <li>Universidad Catolica de Honduras</li>
+        <br>
+      </ul>
+      <section class="imagen-infor">
+        <img width="60%" src="public/unicah.jpeg" alt="">
+      </section>
+    </section>
+  </section>
+
+  </div>
+  <section id="logros" class="grid bg-grey">
+    <div class="row width960">
+      <section class="col-6 col-m-6 offset-m-3` stretch padding">
+        <h2>Contactame</h2>
+        <form class="col-6 col-m-6 modern">
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" />
+          </div>
+          <div class="field">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" />
+          </div>
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+          <div class="actions">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </section>
+      <section class="col-6 col-m-6">
+        <img class="fullimg" src="public/contacto.png" alt="Foto Panel Izquierdo" />
+      </section>
+  </section>
+  {{> footers}}
+
+</body>
+
+</html>
