@@ -10,6 +10,7 @@ export default defineConfig(
     {
        
         appType: 'mpa',
+        base: "/McPortafolio/",
         build: {
             rollupOptions: {
                 input: Object.fromEntries(
